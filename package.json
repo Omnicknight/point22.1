@@ -1,27 +1,28 @@
 {
-  "name": "node-learning",
+  "name": "ajax",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
-    "lodash": "^4.17.20",
-    "nodemon": "^2.0.4"
+    "lodash": "^4.17.20"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "start:watch": "nodemon index.js"
+    "build": "webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fiWhy/learn-node.git"
+    "url": "git+https://github.com/fiWhy/learn-node-client.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fiWhy/learn-node/issues"
+    "url": "https://github.com/fiWhy/learn-node-client/issues"
   },
-  "homepage": "https://github.com/fiWhy/learn-node#readme"
+  "homepage": "https://github.com/fiWhy/learn-node-client#readme",
+  "keywords": [],
+  "description": ""
 }
